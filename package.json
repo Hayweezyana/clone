@@ -1,0 +1,13 @@
+{
+  "name": "clone-pictures-site",
+  "private": true,
+  "description": "Website for Clone Pictures Studio, Lagos",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs"
+  }
+}

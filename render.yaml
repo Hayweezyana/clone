@@ -1,0 +1,43 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# In the Render dashboard: New → Blueprint → pick this repo. Pushes to main redeploy.
+services:
+  - type: web
+    name: clone-pictures
+    runtime: static
+    branch: main
+    buildCommand: node scripts/build.mjs
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: false
+    envVars:
+      # Public URL used for canonical links, sitemap and social cards.
+      # Change it when a custom domain is added, then redeploy.
+      - key: SITE_URL
+        value: https://clone-pictures.onrender.com
+    headers:
+      # Fingerprinted JS: cache forever.
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      # Icons rarely change.
+      - path: /*.png
+        name: Cache-Control
+        value: public, max-age=604800
+      # HTML must always revalidate so new deploys show up immediately.
+      - path: /
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+      - path: /index.html
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: Permissions-Policy
+        value: camera=(), microphone=(), geolocation=()

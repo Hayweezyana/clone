@@ -1,0 +1,83 @@
+{
+  "name": "Clone Pictures Studio",
+  "alternateNames": ["Clone Studio", "Clone Studiopictures", "Clone Pictures"],
+  "title": "Clone Pictures Studio | Photo Studio in Yaba & Surulere, Lagos",
+  "description": "Clone Pictures is a Lagos photography studio for portraits, convocation, maternity, couples, family and corporate headshots. Book at Yaba (Ozone Cinemas), Leisure Mall or Adeniran Ogunsanya, Surulere.",
+  "tagline": "Capturing your best angles, every single time.",
+  "ogImage": "p115",
+  "sameAs": [
+    "https://www.instagram.com/clone_studiopictures/",
+    "https://www.instagram.com/clonepictures_yabastudio/",
+    "https://clonepictures.pixieset.com/"
+  ],
+  "branches": [
+    {
+      "key": "yaba",
+      "name": "Yaba",
+      "title": "Clone Pictures <em>Yaba</em>",
+      "area": "Ozone Cinemas Mall",
+      "address": "Ozone Cinemas Mall, 11 Commercial Avenue, Sabo, Yaba, Lagos",
+      "street": "Ozone Cinemas Mall, 11 Commercial Avenue, Sabo",
+      "locality": "Yaba",
+      "phone": "0903 818 1728",
+      "wa": "2349038181728",
+      "map": "https://www.google.com/maps/search/?api=1&query=Ozone+Cinemas+Commercial+Avenue+Sabo+Yaba+Lagos",
+      "instagram": "https://www.instagram.com/clonepictures_yabastudio/",
+      "photo": "p125",
+      "hint": "Ozone Cinemas Mall, Sabo. Close to Unilag, Akoka & Ebute Metta"
+    },
+    {
+      "key": "leisure",
+      "name": "Leisure Mall, Surulere",
+      "title": "Leisure Mall <em>Surulere</em>",
+      "area": "Beside ShopRite",
+      "address": "Leisure Mall, beside ShopRite, Adeniran Ogunsanya Street, Surulere, Lagos",
+      "street": "Leisure Mall, beside ShopRite, Adeniran Ogunsanya Street",
+      "locality": "Surulere",
+      "phone": "0704 897 8732",
+      "wa": "2347048978732",
+      "map": "https://www.google.com/maps/search/?api=1&query=Leisure+Mall+Adeniran+Ogunsanya+Surulere+Lagos",
+      "instagram": "https://www.instagram.com/clone_studiopictures/",
+      "photo": "p054",
+      "hint": "Inside Leisure Mall, beside ShopRite"
+    },
+    {
+      "key": "adeniran",
+      "name": "Adeniran Ogunsanya, Surulere",
+      "title": "Adeniran Ogunsanya <em>Surulere</em>",
+      "area": "Beside The Place Restaurant",
+      "address": "Adeniran Ogunsanya Street, beside The Place Restaurant, Surulere, Lagos",
+      "street": "Adeniran Ogunsanya Street, beside The Place Restaurant",
+      "locality": "Surulere",
+      "phone": "0808 477 2545",
+      "wa": "2348084772545",
+      "map": "https://www.google.com/maps/search/?api=1&query=The+Place+Restaurant+Adeniran+Ogunsanya+Surulere+Lagos",
+      "instagram": "https://www.instagram.com/clone_studiopictures/",
+      "photo": "p012",
+      "hint": "On Adeniran Ogunsanya St, beside The Place Restaurant"
+    }
+  ],
+  "services": [
+    { "name": "Studio Portraits", "photo": "p168", "desc": "Solo editorial portraits on our signature sets, for birthdays, brand shoots or just because." },
+    { "name": "Convocation", "photo": "p252", "desc": "Gown, cap and all. Celebrate your milestone with portraits worthy of the wall." },
+    { "name": "Maternity", "photo": "p232", "desc": "Soft, glowing images that honour the bump and the journey to meeting your little one." },
+    { "name": "Couples & Pre-wedding", "photo": "p205", "desc": "Chemistry, captured. Pre-wedding, anniversaries and everything in between." },
+    { "name": "Family & Kids", "photo": "p093", "desc": "Generations in one frame, plus playful birthday setups for the little ones." },
+    { "name": "Corporate & Headshots", "photo": "p107", "desc": "Crisp, confident headshots for LinkedIn, company profiles and the boardroom." }
+  ],
+  "categories": [
+    ["all", "All", "Photo session"],
+    ["portrait", "Portraits", "Studio portrait"],
+    ["graduation", "Convocation", "Convocation portrait"],
+    ["couples", "Couples", "Couples portrait"],
+    ["family", "Family & Kids", "Family portrait"],
+    ["maternity", "Maternity", "Maternity portrait"],
+    ["corporate", "Corporate", "Corporate headshot"],
+    ["milestones", "NYSC & Call to Bar", "NYSC / call-to-bar portrait"]
+  ],
+  "sessionChips": ["Studio portrait", "Birthday shoot", "Convocation", "Maternity", "Couples", "Family", "Headshots", "Makeup & hair"],
+  "hero": ["p115", "p012", "p125", "p046", "p042"],
+  "strip": ["p000", "p054", "p142", "p060", "p099", "p252", "p231", "p036", "p086", "p110", "p175", "p016", "p184", "p288", "p265", "p192"],
+  "cta": "p231",
+  "galleryPage": 20
+}
